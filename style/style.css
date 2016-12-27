@@ -3,7 +3,6 @@
     top:0;
     left: 0;
     width: 15%;
-    float: left;
     text-align: center;
     padding-top: 30px;
 }
@@ -16,10 +15,25 @@
 #main-doc {
     margin-left: 15%;
     width: 85%;
-    float: left;
 }
 
 #main-doc header {
     font-size: 1.5rem;
     font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    #navbar {
+        position: static;
+        width: 100%;
+    }
+    
+    #navbar a {
+        margin-top: 10px;
+    }
+    
+    #main-doc {
+        width: 100%;
+        margin-left: 0%;
+    }
 }
