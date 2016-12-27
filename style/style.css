@@ -1,0 +1,25 @@
+#navbar {
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 15%;
+    float: left;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#navbar a {
+    display: block;
+    margin-top: 20px;
+}
+
+#main-doc {
+    margin-left: 15%;
+    width: 85%;
+    float: left;
+}
+
+#main-doc header {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
